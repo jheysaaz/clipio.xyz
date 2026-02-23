@@ -51,7 +51,7 @@ export function HeroSection() {
         name: cursorColors[i].name,
         type: cursorColors[i].type,
       };
-    })
+    }),
   );
 
   useEffect(() => {
@@ -98,7 +98,7 @@ export function HeroSection() {
             x: cursor.x + dx * 0.05,
             y: cursor.y + dy * 0.05,
           };
-        })
+        }),
       );
     }, 50);
 
@@ -116,13 +116,15 @@ export function HeroSection() {
           targetX: 50 + Math.cos(angle) * distance,
           targetY: 50 + Math.sin(angle) * distance,
         };
-      })
+      }),
     );
     setIsDispersing(true);
 
     // Navegar después de 1000ms
     setTimeout(() => {
-      router.push("/register");
+      router.push(
+        "https://chromewebstore.google.com/detail/clipio-snippets-manager/diccgefmgdlhimonhjckhejkmdbkmkod",
+      );
     }, 1000);
   };
   return (
@@ -231,19 +233,7 @@ export function HeroSection() {
             </Button>
           </div>
 
-          <p className="mt-6 text-sm text-muted-foreground">
-            Free forever • No credit card required
-          </p>
-
-          <div className="mt-16 rounded-xl border border-border bg-muted/30 p-2 shadow-2xl">
-            <div className="overflow-hidden rounded-lg border border-border bg-card">
-              <img
-                src="/modern-snippet-manager-interface-showing-code-and-.jpg"
-                alt="Clipio Interface"
-                className="h-auto w-full"
-              />
-            </div>
-          </div>
+          <p className="mt-6 text-sm text-muted-foreground">Free forever</p>
         </div>
       </div>
     </section>

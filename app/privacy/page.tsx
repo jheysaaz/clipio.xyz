@@ -1,263 +1,292 @@
-import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
 export default function PrivacyPolicy() {
   return (
-    <main className="min-h-screen bg-background">
-      <Header />
-      <div className="container mx-auto max-w-4xl px-4 py-16 md:py-24">
-        <h1 className="mb-4 text-4xl font-bold md:text-5xl">Privacy Policy</h1>
-        <p className="mb-12 text-muted-foreground">
-          Last updated: January 7, 2026
-        </p>
-
-        <div className="prose prose-zinc max-w-none dark:prose-invert">
-          <p className="text-lg leading-relaxed text-muted-foreground">
-            Clipio (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) operates
-            a Chrome Extension and a web application (collectively, the
-            &quot;Service&quot;). This Privacy Policy explains how we collect,
-            use, and protect your information when you use Clipio.
-          </p>
-          <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            By using the Service, you agree to this Privacy Policy.
+    <div className="flex flex-col min-h-screen">
+      <main className="grow container mx-auto px-4 py-12 max-w-4xl">
+        <article className="prose prose-slate max-w-none">
+          <h1 className="text-4xl font-bold mb-2 text-slate-900">
+            Privacy Policy
+          </h1>
+          <p className="text-sm text-slate-500 mb-8">
+            Last updated: February 22, 2026
           </p>
 
-          <hr className="my-8 border-border" />
-
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            1. Information We Collect
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            We collect only the information necessary to operate and improve
-            Clipio.
+          <p className="text-lg leading-relaxed mb-6">
+            Clipio (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is a
+            browser extension available for Chrome and Firefox (the
+            &quot;Extension&quot;). This Privacy Policy explains how we handle
+            your information when you use Clipio.
           </p>
 
-          <h3 className="mb-3 mt-8 text-xl font-semibold">
-            a. Account Information (if applicable)
-          </h3>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>Email address</li>
-            <li>Username or identifier</li>
-          </ul>
-
-          <h3 className="mb-3 mt-8 text-xl font-semibold">
-            b. Usage and Technical Data
-          </h3>
-          <p className="leading-relaxed text-muted-foreground">
-            Collected automatically:
-          </p>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>IP address</li>
-            <li>Browser type</li>
-            <li>Device and extension-related identifiers</li>
-            <li>Pages or features used</li>
-            <li>Date and time of access</li>
-          </ul>
-
-          <h3 className="mb-3 mt-8 text-xl font-semibold">c. Content Data</h3>
-          <p className="leading-relaxed text-muted-foreground">
-            Clipio may temporarily process content (such as text or data you
-            choose to clip or save). We do not access content unless you
-            explicitly interact with the extension or web app.
+          <p className="mb-8">
+            By installing or using the Extension, you agree to this Privacy
+            Policy.
           </p>
 
-          <hr className="my-8 border-border" />
+          <hr className="my-10 border-slate-200" />
 
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            2. How We Use Your Information
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            We use your data to:
-          </p>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>Provide and operate the Service</li>
-            <li>Sync data between the extension and the web app</li>
-            <li>Improve performance and reliability</li>
-            <li>Detect abuse, fraud, or technical issues</li>
-            <li>Comply with legal obligations</li>
-          </ul>
-          <p className="mt-4 leading-relaxed text-muted-foreground">
-            We do not use your data for advertising.
-          </p>
+          {/* Section 1 */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+              1. Information We Collect
+            </h2>
 
-          <hr className="my-8 border-border" />
+            <h3 className="text-xl font-medium mb-3 text-slate-700">
+              a. Snippet Data (stored locally on your device)
+            </h3>
+            <p className="mb-4">
+              All snippets you create — including their shortcut, label,
+              content, and tags — are stored exclusively on your device using
+              the browser&apos;s built-in{" "}
+              <code className="bg-slate-100 px-1 rounded text-pink-600">
+                storage.sync
+              </code>{" "}
+              and
+              <code className="bg-slate-100 px-1 rounded text-pink-600">
+                storage.local
+              </code>{" "}
+              APIs. Snippet data may be synced across your own devices by the
+              browser&apos;s native sync infrastructure (e.g., Chrome Sync or
+              Firefox Sync) if you are signed in to your browser; this sync is
+              performed directly by the browser and is outside Clipio&apos;s
+              control.
+            </p>
+            <p className="font-semibold text-slate-900 mb-6">
+              We never transmit your snippet content to our servers.
+            </p>
 
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            3. Cookies and Local Storage
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            The web version of Clipio may use cookies or local storage for:
-          </p>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>Authentication</li>
-            <li>Session management</li>
-            <li>Basic analytics</li>
-          </ul>
-          <p className="mt-4 leading-relaxed text-muted-foreground">
-            You can control cookies through your browser settings.
-          </p>
+            <h3 className="text-xl font-medium mb-3 text-slate-700">
+              b. Error and Diagnostic Data
+            </h3>
+            <p className="mb-4">
+              To detect and fix bugs we collect anonymized error reports through
+              Sentry (see Section 4). Error reports may include:
+            </p>
+            <ul className="list-disc pl-6 mb-4 space-y-2">
+              <li>Error type and error message</li>
+              <li>
+                Stack trace (file and line number references within the
+                extension&apos;s own code)
+              </li>
+              <li>
+                The extension context where the error occurred (background,
+                popup, options, or content script)
+              </li>
+              <li>
+                The operation that triggered the error (e.g.,{" "}
+                <code className="bg-slate-100 px-1">loadSnippets</code>)
+              </li>
+              <li>
+                Snippet shortcut text and snippet label (e.g.,{" "}
+                <code className="bg-slate-100 px-1">;gr</code> or &quot;Greeting
+                template&quot;)
+              </li>
+              <li>
+                Storage mode (<code className="bg-slate-100 px-1">sync</code> or{" "}
+                <code className="bg-slate-100 px-1">local</code>)
+              </li>
+              <li>Extension version and release identifier</li>
+            </ul>
 
-          <hr className="my-8 border-border" />
+            <div className="bg-slate-50 border-l-4 border-slate-400 p-4 mb-4">
+              <p className="font-bold mb-2">
+                The following data is never included in error reports:
+              </p>
+              <ul className="list-disc pl-6 space-y-1">
+                <li>Snippet body content</li>
+                <li>Clipboard contents</li>
+                <li>The URLs of pages you visit in your browser</li>
+              </ul>
+            </div>
+          </section>
 
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            4. Legal Bases for Processing (GDPR)
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            If you are in the European Economic Area (EEA), we process personal
-            data based on:
-          </p>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>Your consent</li>
-            <li>Performance of a contract (providing the Service)</li>
-            <li>
-              Legitimate interests (security and improvement of the Service)
-            </li>
-            <li>Legal obligations</li>
-          </ul>
+          {/* Section 2 */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+              2. How We Use Your Information
+            </h2>
+            <p className="mb-4">We use diagnostic data solely to:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Detect and fix bugs and technical errors in the Extension</li>
+              <li>Improve performance and reliability</li>
+              <li>Detect technical issues that could affect users</li>
+            </ul>
+            <p className="mt-4 italic">
+              We do not use your data for advertising, profiling, or any purpose
+              other than maintaining a functional, reliable extension.
+            </p>
+          </section>
 
-          <hr className="my-8 border-border" />
+          {/* Section 3 */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+              3. Data Storage
+            </h2>
+            <p>
+              All snippet data is stored locally on your device. Clipio does not
+              operate a backend server that receives or stores your snippets.
+              The Extension also maintains a local IndexedDB backup of your
+              snippets on your device as a recovery mechanism in case of
+              accidental data loss.
+            </p>
+          </section>
 
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            5. Data Sharing
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            We do not sell your personal data.
-          </p>
-          <p className="mt-4 leading-relaxed text-muted-foreground">
-            We may share data only with:
-          </p>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>
-              Infrastructure providers (hosting, databases, authentication)
-            </li>
-            <li>Analytics services (in aggregated or anonymized form)</li>
-            <li>Authorities when required by law</li>
-          </ul>
-          <p className="mt-4 leading-relaxed text-muted-foreground">
-            All service providers are required to protect your data.
-          </p>
+          {/* Section 4 */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+              4. Third-Party Services
+            </h2>
+            <p className="mb-6">
+              We use <strong>Sentry</strong> (sentry.io) exclusively for error
+              monitoring in the Extension. No other third-party analytics or
+              tracking service is used.
+            </p>
 
-          <hr className="my-8 border-border" />
+            <div className="overflow-x-auto mb-6">
+              <table className="min-w-full border-collapse border border-slate-200">
+                <thead>
+                  <tr className="bg-slate-50">
+                    <th className="border border-slate-200 px-4 py-2 text-left">
+                      Service
+                    </th>
+                    <th className="border border-slate-200 px-4 py-2 text-left">
+                      Purpose
+                    </th>
+                    <th className="border border-slate-200 px-4 py-2 text-left">
+                      Privacy Policy
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border border-slate-200 px-4 py-2 font-medium">
+                      Sentry
+                    </td>
+                    <td className="border border-slate-200 px-4 py-2">
+                      Error monitoring and diagnostics
+                    </td>
+                    <td className="border border-slate-200 px-4 py-2">
+                      <a
+                        href="https://sentry.io/privacy"
+                        className="text-blue-600 hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        sentry.io/privacy
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            6. Data Retention
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            We retain personal data only for as long as necessary to provide the
-            Service or comply with legal requirements. You may request deletion
-            of your data at any time.
-          </p>
+            <p className="text-sm text-slate-600">
+              Sentry is a U.S.-based company that complies with GDPR through
+              Standard Contractual Clauses (SCCs). Error reports are retained
+              for <strong>90 days</strong> and then automatically deleted.
+            </p>
+          </section>
 
-          <hr className="my-8 border-border" />
+          {/* Section 5 & 6 (Combined for brevity in this example) */}
+          <section className="mb-10">
+            <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+              5. Legal Bases for Processing (GDPR)
+            </h2>
+            <p className="mb-8">
+              If you are in the European Economic Area (EEA), our legal basis
+              for processing diagnostic error data is
+              <strong> legitimate interest</strong> — detecting and fixing
+              software defects to maintain a reliable and secure extension.
+            </p>
 
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            7. Your Rights
-          </h2>
+            <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+              6. Your Rights
+            </h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div>
+                <h4 className="font-bold mb-2">European Union (GDPR)</h4>
+                <p className="text-sm">
+                  Access, correct, delete, restrict, or port your data, and
+                  withdraw consent.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">United States (CCPA)</h4>
+                <p className="text-sm">
+                  Request info on collection, deletion of data, and confirm data
+                  is not sold.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">Colombia (Ley 1581)</h4>
+                <p className="text-sm">
+                  Know, update, and correct data. Request proof of authorization
+                  or deletion via SIC.
+                </p>
+              </div>
+            </div>
+            <p className="mt-6 text-center">
+              Contact us at:{" "}
+              <a
+                href="mailto:privacy@clipio.xyz"
+                className="text-blue-600 font-medium"
+              >
+                privacy@clipio.xyz
+              </a>
+            </p>
+          </section>
 
-          <h3 className="mb-3 mt-8 text-xl font-semibold">
-            European Union (GDPR):
-          </h3>
-          <p className="leading-relaxed text-muted-foreground">
-            You have the right to access, correct, delete, restrict, or port
-            your data, and to withdraw consent.
-          </p>
+          {/* Final Sections */}
+          <section className="space-y-8">
+            <div>
+              <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+                7. Data Security
+              </h2>
+              <p>
+                All snippet data remains on your device. We automatically strip
+                all snippet body content and clipboard data before transmission
+                of error reports.
+              </p>
+            </div>
 
-          <h3 className="mb-3 mt-8 text-xl font-semibold">
-            United States (CCPA-style rights):
-          </h3>
-          <p className="leading-relaxed text-muted-foreground">
-            You may request:
-          </p>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>Information about data collected</li>
-            <li>Deletion of your personal data</li>
-            <li>Confirmation that your data is not sold</li>
-          </ul>
+            <div>
+              <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+                8. Children&apos;s Privacy
+              </h2>
+              <p>
+                The Extension is not intended for users under the age of 13. We
+                do not knowingly collect personal data from children.
+              </p>
+            </div>
 
-          <h3 className="mb-3 mt-8 text-xl font-semibold">
-            Colombia (Ley 1581 de 2012 – Habeas Data):
-          </h3>
-          <p className="leading-relaxed text-muted-foreground">
-            You have the right to:
-          </p>
-          <ul className="ml-6 list-disc space-y-2 leading-relaxed text-muted-foreground">
-            <li>Know, update, and correct your personal data</li>
-            <li>Request proof of authorization</li>
-            <li>Request deletion or revocation of consent</li>
-            <li>
-              File complaints with the Superintendencia de Industria y Comercio
-              (SIC)
-            </li>
-          </ul>
+            <div>
+              <h2 className="text-2xl font-semibold mb-4 text-slate-800">
+                9. Changes to This Policy
+              </h2>
+              <p>
+                We may update this Privacy Policy occasionally. Continued use
+                constitutes acceptance of the updated policy.
+              </p>
+            </div>
 
-          <p className="mt-6 leading-relaxed text-muted-foreground">
-            To exercise any of these rights, contact us at:{" "}
-            <a
-              href="mailto:privacy@clipio.xyz"
-              className="text-accent hover:underline"
-            >
-              privacy@clipio.xyz
-            </a>
-          </p>
+            <div className="bg-slate-100 p-8 rounded-lg text-center">
+              <h2 className="text-2xl font-semibold mb-2 text-slate-800">
+                10. Contact
+              </h2>
+              <p>For any questions or requests regarding privacy:</p>
+              <a
+                href="mailto:privacy@clipio.xyz"
+                className="text-xl text-blue-600 font-bold hover:underline"
+              >
+                privacy@clipio.xyz
+              </a>
+            </div>
+          </section>
+        </article>
+      </main>
 
-          <hr className="my-8 border-border" />
-
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            8. Data Security
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            We apply reasonable technical and organizational measures to protect
-            your data. However, no system is completely secure, and we cannot
-            guarantee absolute security.
-          </p>
-
-          <hr className="my-8 border-border" />
-
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            9. Third-Party Services
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            Clipio may include links or integrations with third-party services.
-            We are not responsible for their privacy practices.
-          </p>
-
-          <hr className="my-8 border-border" />
-
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            10. Children&apos;s Privacy
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            Clipio is not intended for users under the age of 13. We do not
-            knowingly collect personal data from children.
-          </p>
-
-          <hr className="my-8 border-border" />
-
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            11. Changes to This Policy
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            We may update this Privacy Policy occasionally. Changes will be
-            posted on this page with an updated date.
-          </p>
-
-          <hr className="my-8 border-border" />
-
-          <h2 className="mb-4 mt-12 text-2xl font-bold md:text-3xl">
-            12. Contact
-          </h2>
-          <p className="leading-relaxed text-muted-foreground">
-            For any questions or requests regarding privacy, contact:{" "}
-            <a
-              href="mailto:privacy@clipio.xyz"
-              className="text-accent hover:underline"
-            >
-              privacy@clipio.xyz
-            </a>
-          </p>
-        </div>
-      </div>
       <Footer />
-    </main>
+    </div>
   );
 }
