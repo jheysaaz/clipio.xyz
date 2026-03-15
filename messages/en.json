@@ -5,7 +5,8 @@
     "description": "Save code snippets, email templates, and work docs in one place. Find anything in under a second with global keyboard shortcuts.",
     "keywords": "snippet manager, code snippets, text expander, Chrome extension, keyboard shortcuts, email templates, productivity",
     "privacyTitle": "Privacy Policy",
-    "onboardingTitle": "Getting Started"
+    "onboardingTitle": "Getting Started",
+    "uninstallTitle": "You've uninstalled Clipio"
   },
   "hero": {
     "headline": "Clip anything.",
@@ -269,6 +270,36 @@
       "supportClosingLabel": "Support closing",
       "supportClosingShortcut": "/closing"
     }
+  },
+  "uninstall": {
+    "headline": "Sorry to see you go.",
+    "headlineAccent": "Really.",
+    "subtitle": "Clipio has been removed from your browser. We hope it helped while it lasted — and we genuinely want to know how we can do better.",
+    "feedbackHeading": "What went wrong?",
+    "feedbackDescription": "Your feedback goes directly to the team. It takes less than a minute and it makes a real difference.",
+    "reasons": [
+      "It was too complicated to use",
+      "I found a better alternative",
+      "It was missing features I needed",
+      "It caused browser issues or slowed things down",
+      "I had privacy concerns",
+      "I just don't need it anymore",
+      "I was only testing it out"
+    ],
+    "emailLabel": "Your email (optional)",
+    "emailPlaceholder": "you@example.com",
+    "emailHint": "Only used to follow up if you'd like a response.",
+    "commentLabel": "Anything else you want us to know? (optional)",
+    "commentPlaceholder": "Tell us what you expected, what broke, or what another tool does better…",
+    "submit": "Send feedback",
+    "submitting": "Sending…",
+    "skip": "Skip — just leave",
+    "thankYouHeading": "Thank you.",
+    "thankYouBody": "We read every piece of feedback. If something broke or confused you, we'll fix it.",
+    "reinstallHeading": "Changed your mind?",
+    "reinstallBody": "Clipio is still free. If you ever want to try it again, it's one click away.",
+    "reinstallButton": "Reinstall Clipio",
+    "reinstallTagline": "Free forever — no account required"
   },
   "notFound": {
     "title": "Page not found",

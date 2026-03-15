@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/onboarding", "/es/onboarding"],
+        disallow: ["/onboarding", "/es/onboarding", "/uninstall", "/es/uninstall"],
       },
     ],
     sitemap: "https://clipio.xyz/sitemap.xml",

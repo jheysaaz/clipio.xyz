@@ -5,7 +5,8 @@
     "description": "Guarda fragmentos de código, plantillas de correo y documentos de trabajo en un solo lugar. Encuentra cualquier cosa en menos de un segundo con atajos de teclado globales.",
     "keywords": "gestor de fragmentos, fragmentos de código, expansor de texto, extensión de Chrome, atajos de teclado, plantillas de correo, productividad",
     "privacyTitle": "Política de privacidad",
-    "onboardingTitle": "Primeros pasos"
+    "onboardingTitle": "Primeros pasos",
+    "uninstallTitle": "Has desinstalado Clipio"
   },
   "hero": {
     "headline": "Guarda cualquier texto.",
@@ -269,6 +270,36 @@
       "supportClosingLabel": "Cierre de soporte",
       "supportClosingShortcut": "/cierre"
     }
+  },
+  "uninstall": {
+    "headline": "Nos da pena que te vayas.",
+    "headlineAccent": "De verdad.",
+    "subtitle": "Clipio ha sido eliminado de tu navegador. Esperamos que te haya sido útil — y queremos saber cómo podemos mejorar.",
+    "feedbackHeading": "¿Qué salió mal?",
+    "feedbackDescription": "Tu opinión llega directamente al equipo. Toma menos de un minuto y marca la diferencia.",
+    "reasons": [
+      "Era demasiado complicado de usar",
+      "Encontré una mejor alternativa",
+      "Le faltaban funciones que necesitaba",
+      "Causaba problemas en el navegador o lo ralentizaba",
+      "Tenía dudas sobre la privacidad",
+      "Simplemente ya no lo necesito",
+      "Solo lo estaba probando"
+    ],
+    "emailLabel": "Tu correo electrónico (opcional)",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "emailHint": "Solo se usa para responderte si quieres recibir una respuesta.",
+    "commentLabel": "¿Algo más que quieras que sepamos? (opcional)",
+    "commentPlaceholder": "Cuéntanos qué esperabas, qué falló, o qué hace mejor otra herramienta…",
+    "submit": "Enviar comentarios",
+    "submitting": "Enviando…",
+    "skip": "Omitir — solo salir",
+    "thankYouHeading": "Gracias.",
+    "thankYouBody": "Leemos cada comentario. Si algo falló o fue confuso, lo arreglaremos.",
+    "reinstallHeading": "¿Cambiaste de opinión?",
+    "reinstallBody": "Clipio sigue siendo gratis. Si alguna vez quieres volver a probarlo, está a un clic.",
+    "reinstallButton": "Reinstalar Clipio",
+    "reinstallTagline": "Gratis para siempre — sin cuenta requerida"
   },
   "notFound": {
     "title": "Página no encontrada",

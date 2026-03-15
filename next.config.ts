@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
+import { withSentryConfig } from "@sentry/nextjs";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
@@ -38,7 +39,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: blob:",
-              "connect-src 'self' https://vitals.vercel-insights.com https://sentry.io",
+              "connect-src 'self' https://vitals.vercel-insights.com https://sentry.io https://*.ingest.sentry.io https://*.ingest.us.sentry.io",
               "frame-ancestors 'none'",
               "base-uri 'self'",
               "form-action 'self'",
@@ -50,4 +51,18 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+export default withSentryConfig(withNextIntl(nextConfig), {
+  // Sentry organization and project slugs (set these to your own)
+  org: process.env.SENTRY_ORG,
+  project: process.env.SENTRY_PROJECT,
+
+  // Only upload source maps in CI/production builds
+  silent: !process.env.CI,
+
+  webpack: {
+    // Remove Sentry debug logging statements from the production bundle
+    treeshake: {
+      removeDebugLogging: true,
+    },
+  },
+});
