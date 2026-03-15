@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "title": "Clipio – Snippet Manager for Chrome",
+    "titleTemplate": "%s | Clipio",
+    "description": "Save code snippets, email templates, and work docs in one place. Find anything in under a second with global keyboard shortcuts.",
+    "keywords": "snippet manager, code snippets, text expander, Chrome extension, keyboard shortcuts, email templates, productivity",
+    "privacyTitle": "Privacy Policy",
+    "onboardingTitle": "Getting Started"
+  },
+  "hero": {
+    "headline": "Clip anything.",
+    "headlineAccent": "Find it instantly.",
+    "subtitle": "Save code snippets, email templates, meeting notes, and work docs all in one place. Quick to save, instant to find.",
+    "cta": "Try Clipio for free",
+    "tagline": "Free forever",
+    "cursorNames": ["Alex", "Sarah", "Mike", "Emma", "Chris"]
+  },
+  "features": {
+    "heading": "Everything you need",
+    "subheading": "Built for people who work with text all day",
+    "wip": "WIP",
+    "items": [
+      {
+        "title": "Code Snippets",
+        "description": "Syntax highlighting for 150+ languages. Never rewrite the same code twice."
+      },
+      {
+        "title": "Email Templates",
+        "description": "Save your best replies and responses. Copy and paste in seconds."
+      },
+      {
+        "title": "Lightning Fast",
+        "description": "Global keyboard shortcuts. Find any snippet in under a second."
+      },
+      {
+        "title": "Smart Search",
+        "description": "Full-text search that actually works. Find snippets by content or tags."
+      },
+      {
+        "title": "Stay Organized",
+        "description": "Folders, tags, and favorites. Organize your way without overthinking it."
+      },
+      {
+        "title": "Team Sharing",
+        "description": "Share snippets with your team. Keep everyone on the same page."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Start saving time today",
+    "subheading": "Join thousands of people who save hours every week with Clipio",
+    "button": "Try Clipio for free",
+    "tagline": "Free forever • No credit card required"
+  },
+  "footer": {
+    "tagline": "Clip anything. Find it instantly.",
+    "product": "Product",
+    "legal": "Legal",
+    "features": "Features",
+    "download": "Download",
+    "privacy": "Privacy",
+    "copyright": "© 2026 Clipio. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 14, 2026",
+    "intro1": "Clipio (\"we\", \"us\", or \"our\") is a browser extension available for Chrome and Firefox (the \"Extension\"). This Privacy Policy explains how we handle your information when you use Clipio.",
+    "intro2": "By installing or using the Extension, you agree to this Privacy Policy.",
+    "section1Title": "1. Information We Collect",
+    "section1aTitle": "a. Snippet Data (stored locally on your device)",
+    "section1aBodyBefore": "All snippets you create — including their shortcut, label, content, and tags — are stored exclusively on your device using the browser's built-in ",
+    "section1aBodyMiddle": " and ",
+    "section1aBodyAfter": " APIs. Snippet data may be synced across your own devices by the browser's native sync infrastructure (e.g., Chrome Sync or Firefox Sync) if you are signed in to your browser; this sync is performed directly by the browser and is outside Clipio's control.",
+    "section1aStorageSyncCode": "storage.sync",
+    "section1aStorageLocalCode": "storage.local",
+    "section1aEmphasis": "We never transmit your snippet content to our servers.",
+    "section1bTitle": "b. Error and Diagnostic Data",
+    "section1bBody": "To detect and fix bugs we collect anonymized error reports through Sentry (see Section 4). Error reports may include:",
+    "section1bItems": [
+      "Error type and error message",
+      "Stack trace (file and line number references within the extension's own code)",
+      "The extension context where the error occurred (background, popup, options, or content script)",
+      "The operation that triggered the error (e.g., loadSnippets)",
+      "Snippet shortcut text and snippet label (e.g., ;gr or \"Greeting template\")",
+      "Storage mode (sync or local)",
+      "Extension version and release identifier"
+    ],
+    "section1bNeverTitle": "The following data is never included in error reports:",
+    "section1bNeverItems": [
+      "Snippet body content",
+      "Clipboard contents",
+      "The URLs of pages you visit in your browser",
+      "Your GIF search queries"
+    ],
+    "section1cTitle": "c. Image Data (stored locally on your device)",
+    "section1cBody": "Images you upload or save through the Extension are stored exclusively on your device in IndexedDB. Images are never transmitted to our servers. They remain under your control and can be deleted at any time from the Extension's settings.",
+    "section2Title": "2. How We Use Your Information",
+    "section2Intro": "We use diagnostic data solely to:",
+    "section2Items": [
+      "Detect and fix bugs and technical errors in the Extension",
+      "Improve performance and reliability",
+      "Detect technical issues that could affect users"
+    ],
+    "section2Note": "We do not use your data for advertising, profiling, or any purpose other than maintaining a functional, reliable extension.",
+    "section3Title": "3. Data Storage",
+    "section3Body": "All snippet data is stored locally on your device. Clipio does not operate a backend server that receives or stores your snippets. The Extension maintains a local IndexedDB store for snippets (as a backup/recovery mechanism) and for images you save. None of this data is ever sent to any server.",
+    "section4Title": "4. Third-Party Services",
+    "section4Body": "We use the following third-party services in connection with Clipio:",
+    "tableService": "Service",
+    "tablePurpose": "Purpose",
+    "tablePrivacy": "Privacy Policy",
+    "sentryPurpose": "Error monitoring and diagnostics",
+    "giphyPurpose": "GIF search within the Extension editor",
+    "giphyNote": "When you search for GIFs, only your search query is sent to Giphy's API directly from your browser. Clipio does not transmit any personal data, identifiers, or browsing history to Giphy. A Giphy API key bundled in the Extension is included in API requests for authentication purposes; it identifies the application, not the user.",
+    "vercelPurpose": "Anonymous website page-view metrics (website only, not the Extension)",
+    "vercelNote": "The Clipio website (clipio.xyz) uses Vercel Analytics to collect anonymous, aggregated page-view data. No personal information, cookies, or user identifiers are collected. Vercel Analytics does not track users across sites.",
+    "section4Note": "Sentry is a U.S.-based company that complies with GDPR through Standard Contractual Clauses (SCCs). Error reports are retained for 90 days and then automatically deleted.",
+    "section5Title": "5. Legal Bases for Processing (GDPR)",
+    "section5Body": "If you are in the European Economic Area (EEA), our legal basis for processing diagnostic error data is legitimate interest — detecting and fixing software defects to maintain a reliable and secure extension.",
+    "section6Title": "6. Your Rights",
+    "euTitle": "European Union (GDPR)",
+    "euBody": "Access, correct, delete, restrict, or port your data, and withdraw consent.",
+    "usTitle": "United States (CCPA)",
+    "usBody": "Request info on collection, deletion of data, and confirm data is not sold.",
+    "coTitle": "Colombia (Ley 1581)",
+    "coBody": "Know, update, and correct data. Request proof of authorization or deletion via SIC.",
+    "contactPrompt": "Contact us at:",
+    "section7Title": "7. Data Security",
+    "section7Body": "All snippet and image data remains on your device. We automatically strip all snippet body content, clipboard data, and image data before transmission of error reports.",
+    "section8Title": "8. Children's Privacy",
+    "section8Body": "The Extension is not intended for users under the age of 13. We do not knowingly collect personal data from children.",
+    "section9Title": "9. Changes to This Policy",
+    "section9Body": "We may update this Privacy Policy occasionally. Continued use constitutes acceptance of the updated policy.",
+    "section10Title": "10. Contact",
+    "section10Body": "For any questions or requests regarding privacy:"
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "eyebrow": "Step 1 of 6",
+        "title": "Welcome to Clipio",
+        "description": "Your browser extension for instant text expansion. Save your most-used texts as snippets and insert them anywhere on the web — with a single shortcut. Stop retyping the same emails, greetings, code blocks, or support replies.",
+        "bullets": [
+          "Works in Gmail, Notion, Slack, GitHub, and everywhere else",
+          "No copy-paste, no switching windows",
+          "Your snippets stay private — stored only in your browser"
+        ]
+      },
+      {
+        "eyebrow": "Step 2 of 6",
+        "title": "Create your first snippet",
+        "description": "A snippet has three fields: a label (just for you), a shortcut, and the content that gets inserted. The rich text editor supports bold, lists, links, images, and GIFs.",
+        "bullets": [
+          "Label: a friendly name only you see, e.g. \"Support closing\"",
+          "Shortcut: what you type to trigger it, e.g. /closing",
+          "Content: supports rich text — bold, lists, code blocks, and more"
+        ]
+      },
+      {
+        "eyebrow": "Step 3 of 6",
+        "title": "Type once, expand anywhere",
+        "description": "Type your shortcut in any text field on any website. Clipio instantly replaces it with your full content — no copy-paste, no windows to switch.",
+        "bullets": [
+          "Triggers on Space or Tab after the shortcut",
+          "Or just pause — Clipio auto-expands after a configurable timeout (default 300 ms)",
+          "Word-boundary detection prevents accidental triggers"
+        ]
+      },
+      {
+        "eyebrow": "Step 4 of 6",
+        "title": "Make snippets dynamic",
+        "description": "Go beyond static text with smart placeholders that resolve at expansion time. The editor shows them as interactive chips you can click to configure.",
+        "bullets": [
+          "{{clipboard}} — inserts whatever is currently in your clipboard",
+          "{{date:long}} — inserts today's full date, e.g. March 14, 2026",
+          "{{cursor}} — places your cursor exactly where you want after expansion"
+        ]
+      },
+      {
+        "eyebrow": "Step 5 of 6",
+        "title": "Images, GIFs & slash commands",
+        "description": "Type / in the editor to open the command menu. Insert images stored locally in your browser, or animated GIFs from Giphy — all without leaving the keyboard.",
+        "bullets": [
+          "/image opens the Image Picker — select a stored image or upload a new one",
+          "/gif opens the GIF Picker — search Giphy's library and insert animated GIFs",
+          "Manage your image library from Settings → Images; more commands may be added over time"
+        ]
+      },
+      {
+        "eyebrow": "Step 6 of 6",
+        "title": "Always in sync",
+        "description": "Clipio syncs your library across all your browsers automatically. Install on your work machine and personal laptop — your snippets appear on both within seconds.",
+        "bullets": [
+          "Automatic fallback to local storage if your library grows beyond the sync quota",
+          "Assign tags to keep your library organized as it grows",
+          "Export any time as JSON for backup or sharing with your team"
+        ]
+      }
+    ],
+    "stepCounter": "{current} / {total}",
+    "back": "Back",
+    "next": "Next",
+    "getStarted": "Get started",
+    "goToStep": "Go to step {step}",
+    "doneTitle": "You're all set",
+    "doneBodyExtension": "Head back to the extension and create your first snippet.",
+    "doneBodyWeb": "Start saving time with Clipio today.",
+    "openExtension": "Open Clipio extension",
+    "goToHomepage": "Go to homepage",
+    "revisitHint": "Use ← → to revisit any step",
+    "startOver": "Start over",
+    "mockup": {
+      "search": "Search…",
+      "newSnippet": "New snippet",
+      "cancel": "Cancel",
+      "saveSnippet": "Save snippet",
+      "labelField": "Label",
+      "shortcutField": "Shortcut",
+      "contentField": "Content",
+      "searchImages": "Search images…",
+      "upload": "Upload",
+      "imageSelected": "Image selected — it will be inserted into your snippet",
+      "clickToInsert": "Click an image to insert · Stored locally in your browser",
+      "slashCmdsTab": "Slash cmds",
+      "imagePickerTab": "Image picker",
+      "settingsTab": "Settings",
+      "commandsHeader": "Commands",
+      "moreCommands": "More commands may be added — type / to see the full list",
+      "tipPrefix": "Tip:",
+      "tipBody": "Commands like {imageCmd} and {gifCmd} open a visual picker right inside the editor. New commands get added over time.",
+      "clickDateHint": "Click the date chip to pick a format",
+      "clipboardDesc": "Pastes your clipboard",
+      "dateDesc": "Dynamic date",
+      "cursorDesc": "Cursor lands here",
+      "syncActive": "Sync active",
+      "allDevicesSynced": "All devices synced",
+      "syncStorage": "Sync storage",
+      "localStorage": "Local storage",
+      "tags": "Tags",
+      "images": "Images",
+      "imagesStored": "{count} stored",
+      "altTextPlaceholder": "Alt text…",
+      "triggerAutoExpanding": "auto-expanding…",
+      "triggerExpanding": "{label} — expanding…",
+      "triggerAutoTimeout": "auto (timeout)",
+      "newMessage": "New Message",
+      "gmailSubject": "Re: Your ticket #4821",
+      "gmailTo": "To",
+      "gmailRecipient": "customer@example.com",
+      "gmailSearchPlaceholder": "Search in mail",
+      "gmailExpandedBody": "Thanks for reaching out! We'll get back to you within 24 hours.",
+      "editorPlaceholderText": "Check out this diagram",
+      "editorImageText": "Here is the diagram:",
+      "settingsMenuItems": ["General", "Import/Export", "Appearance", "Images", "Developers"],
+      "slashCommands": [
+        { "cmd": "/image", "desc": "Insert a stored image" },
+        { "cmd": "/gif", "desc": "Insert a GIF via Giphy" },
+        { "cmd": "/cursor", "desc": "Place cursor after expansion" },
+        { "cmd": "/date", "desc": "Insert today's date" },
+        { "cmd": "/clipboard", "desc": "Insert clipboard contents" }
+      ],
+      "sidebarSnippets": [
+        { "label": "Support closing", "shortcut": "/closing", "preview": "Thanks for reaching out…" },
+        { "label": "Meeting invite", "shortcut": "/meet", "preview": "Let's sync on this…" },
+        { "label": "Daily standup", "shortcut": "/stand", "preview": "Yesterday I worked on…" },
+        { "label": "Code review", "shortcut": "/cr", "preview": "Left a few comments…" }
+      ],
+      "editorSupportClosingContent": "Thanks for reaching out! We'll get back to you within 24 hours.",
+      "supportClosingLabel": "Support closing",
+      "supportClosingShortcut": "/closing"
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "backHome": "Back to home"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again.",
+    "tryAgain": "Try again"
+  }
+}

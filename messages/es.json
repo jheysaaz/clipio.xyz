@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "title": "Clipio – Gestor de fragmentos para Chrome",
+    "titleTemplate": "%s | Clipio",
+    "description": "Guarda fragmentos de código, plantillas de correo y documentos de trabajo en un solo lugar. Encuentra cualquier cosa en menos de un segundo con atajos de teclado globales.",
+    "keywords": "gestor de fragmentos, fragmentos de código, expansor de texto, extensión de Chrome, atajos de teclado, plantillas de correo, productividad",
+    "privacyTitle": "Política de privacidad",
+    "onboardingTitle": "Primeros pasos"
+  },
+  "hero": {
+    "headline": "Guarda cualquier texto.",
+    "headlineAccent": "Encuéntralo al instante.",
+    "subtitle": "Guarda fragmentos de código, plantillas de correo, notas de reuniones y documentos de trabajo, todo en un solo lugar. Rápido de guardar, instantáneo de encontrar.",
+    "cta": "Prueba Clipio gratis",
+    "tagline": "Gratis para siempre",
+    "cursorNames": ["Alex", "Sara", "Miguel", "Emma", "Carlos"]
+  },
+  "features": {
+    "heading": "Todo lo que necesitas",
+    "subheading": "Diseñado para personas que trabajan con texto todo el día",
+    "wip": "En desarrollo",
+    "items": [
+      {
+        "title": "Fragmentos de código",
+        "description": "Resaltado de sintaxis para más de 150 lenguajes. Nunca más reescribas el mismo código."
+      },
+      {
+        "title": "Plantillas de correo",
+        "description": "Guarda tus mejores respuestas. Copia y pega en segundos."
+      },
+      {
+        "title": "Ultrarrápido",
+        "description": "Atajos de teclado globales. Encuentra cualquier fragmento en menos de un segundo."
+      },
+      {
+        "title": "Búsqueda inteligente",
+        "description": "Búsqueda de texto completo que realmente funciona. Encuentra fragmentos por contenido o etiquetas."
+      },
+      {
+        "title": "Mantente organizado",
+        "description": "Carpetas, etiquetas y favoritos. Organízate a tu manera sin complicarte."
+      },
+      {
+        "title": "Uso en equipo",
+        "description": "Comparte fragmentos con tu equipo. Mantén a todos en la misma página."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Empieza a ahorrar tiempo hoy",
+    "subheading": "Únete a miles de personas que ahorran horas cada semana con Clipio",
+    "button": "Prueba Clipio gratis",
+    "tagline": "Gratis para siempre • Sin tarjeta de crédito"
+  },
+  "footer": {
+    "tagline": "Guarda cualquier texto. Encuéntralo al instante.",
+    "product": "Producto",
+    "legal": "Legal",
+    "features": "Características",
+    "download": "Descargar",
+    "privacy": "Privacidad",
+    "copyright": "© 2026 Clipio. Todos los derechos reservados."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: 14 de marzo de 2026",
+    "intro1": "Clipio (\"nosotros\", \"nuestro\") es una extensión de navegador disponible para Chrome y Firefox (la \"Extensión\"). Esta Política de privacidad explica cómo gestionamos tu información cuando usas Clipio.",
+    "intro2": "Al instalar o usar la Extensión, aceptas esta Política de privacidad.",
+    "section1Title": "1. Información que recopilamos",
+    "section1aTitle": "a. Datos de fragmentos (almacenados localmente en tu dispositivo)",
+    "section1aBodyBefore": "Todos los fragmentos que creas — incluyendo su atajo, etiqueta, contenido y etiquetas — se almacenan exclusivamente en tu dispositivo usando las APIs ",
+    "section1aBodyMiddle": " y ",
+    "section1aBodyAfter": " integradas en el navegador. Los datos de fragmentos pueden sincronizarse entre tus dispositivos a través de la infraestructura de sincronización nativa del navegador (por ejemplo, Chrome Sync o Firefox Sync) si has iniciado sesión en tu navegador; esta sincronización la realiza directamente el navegador y está fuera del control de Clipio.",
+    "section1aStorageSyncCode": "storage.sync",
+    "section1aStorageLocalCode": "storage.local",
+    "section1aEmphasis": "Nunca transmitimos el contenido de tus fragmentos a nuestros servidores.",
+    "section1bTitle": "b. Datos de errores y diagnóstico",
+    "section1bBody": "Para detectar y corregir errores, recopilamos informes de errores anonimizados a través de Sentry (ver Sección 4). Los informes de errores pueden incluir:",
+    "section1bItems": [
+      "Tipo de error y mensaje de error",
+      "Traza de pila (referencias de archivo y número de línea dentro del código de la extensión)",
+      "El contexto de la extensión donde ocurrió el error (fondo, popup, opciones o script de contenido)",
+      "La operación que desencadenó el error (por ejemplo, loadSnippets)",
+      "Texto del atajo del fragmento y etiqueta (por ejemplo, ;gr o \"Plantilla de saludo\")",
+      "Modo de almacenamiento (sync o local)",
+      "Versión de la extensión e identificador de versión"
+    ],
+    "section1bNeverTitle": "Los siguientes datos nunca se incluyen en los informes de errores:",
+    "section1bNeverItems": [
+      "Contenido del cuerpo del fragmento",
+      "Contenido del portapapeles",
+      "Las URLs de las páginas que visitas en tu navegador",
+      "Tus búsquedas de GIFs"
+    ],
+    "section1cTitle": "c. Datos de imágenes (almacenados localmente en tu dispositivo)",
+    "section1cBody": "Las imágenes que subas o guardes a través de la Extensión se almacenan exclusivamente en tu dispositivo en IndexedDB. Las imágenes nunca se transmiten a nuestros servidores. Permanecen bajo tu control y pueden eliminarse en cualquier momento desde la configuración de la Extensión.",
+    "section2Title": "2. Cómo usamos tu información",
+    "section2Intro": "Usamos los datos de diagnóstico únicamente para:",
+    "section2Items": [
+      "Detectar y corregir errores técnicos en la Extensión",
+      "Mejorar el rendimiento y la fiabilidad",
+      "Detectar problemas técnicos que puedan afectar a los usuarios"
+    ],
+    "section2Note": "No usamos tus datos para publicidad, creación de perfiles ni ningún propósito que no sea mantener una extensión funcional y fiable.",
+    "section3Title": "3. Almacenamiento de datos",
+    "section3Body": "Todos los datos de fragmentos se almacenan localmente en tu dispositivo. Clipio no opera un servidor backend que reciba o almacene tus fragmentos. La Extensión mantiene un almacén local en IndexedDB para fragmentos (como mecanismo de respaldo/recuperación) y para las imágenes que guardas. Ninguno de estos datos se envía jamás a ningún servidor.",
+    "section4Title": "4. Servicios de terceros",
+    "section4Body": "Utilizamos los siguientes servicios de terceros en relación con Clipio:",
+    "tableService": "Servicio",
+    "tablePurpose": "Propósito",
+    "tablePrivacy": "Política de privacidad",
+    "sentryPurpose": "Monitorización de errores y diagnósticos",
+    "giphyPurpose": "Búsqueda de GIFs dentro del editor de la Extensión",
+    "giphyNote": "Cuando buscas GIFs, solo tu consulta de búsqueda se envía directamente desde tu navegador a la API de Giphy. Clipio no transmite datos personales, identificadores ni historial de navegación a Giphy. Una clave de API de Giphy incluida en la Extensión se adjunta a las solicitudes de API con fines de autenticación; identifica la aplicación, no al usuario.",
+    "vercelPurpose": "Métricas anónimas de visitas a páginas del sitio web (solo el sitio web, no la Extensión)",
+    "vercelNote": "El sitio web de Clipio (clipio.xyz) utiliza Vercel Analytics para recopilar datos de visitas a páginas de forma anónima y agregada. No se recopila información personal, cookies ni identificadores de usuario. Vercel Analytics no rastrea usuarios entre sitios.",
+    "section4Note": "Sentry es una empresa con sede en EE. UU. que cumple con el RGPD a través de Cláusulas Contractuales Estándar (SCC). Los informes de errores se conservan durante 90 días y luego se eliminan automáticamente.",
+    "section5Title": "5. Bases legales para el tratamiento (RGPD)",
+    "section5Body": "Si te encuentras en el Espacio Económico Europeo (EEE), nuestra base legal para el tratamiento de datos de errores de diagnóstico es el interés legítimo — detectar y corregir defectos de software para mantener una extensión fiable y segura.",
+    "section6Title": "6. Tus derechos",
+    "euTitle": "Unión Europea (RGPD)",
+    "euBody": "Acceder, corregir, eliminar, restringir o portar tus datos, y retirar el consentimiento.",
+    "usTitle": "Estados Unidos (CCPA)",
+    "usBody": "Solicitar información sobre la recopilación, eliminación de datos y confirmar que los datos no se venden.",
+    "coTitle": "Colombia (Ley 1581)",
+    "coBody": "Conocer, actualizar y corregir datos. Solicitar prueba de autorización o eliminación ante la SIC.",
+    "contactPrompt": "Contáctanos en:",
+    "section7Title": "7. Seguridad de los datos",
+    "section7Body": "Todos los datos de fragmentos e imágenes permanecen en tu dispositivo. Eliminamos automáticamente todo el contenido del cuerpo del fragmento, los datos del portapapeles y los datos de imágenes antes de transmitir los informes de errores.",
+    "section8Title": "8. Privacidad de los menores",
+    "section8Body": "La Extensión no está destinada a usuarios menores de 13 años. No recopilamos a sabiendas datos personales de menores.",
+    "section9Title": "9. Cambios en esta política",
+    "section9Body": "Podemos actualizar esta Política de privacidad ocasionalmente. El uso continuado constituye la aceptación de la política actualizada.",
+    "section10Title": "10. Contacto",
+    "section10Body": "Para cualquier pregunta o solicitud relacionada con la privacidad:"
+  },
+  "onboarding": {
+    "steps": [
+      {
+        "eyebrow": "Paso 1 de 6",
+        "title": "Bienvenido a Clipio",
+        "description": "Tu extensión de navegador para la expansión instantánea de texto. Guarda tus textos más usados como fragmentos e insértalos en cualquier lugar de la web con un solo atajo. Deja de reescribir los mismos correos, saludos, bloques de código o respuestas de soporte.",
+        "bullets": [
+          "Funciona en Gmail, Notion, Slack, GitHub y en todas partes",
+          "Sin copiar y pegar, sin cambiar de ventana",
+          "Tus fragmentos son privados — almacenados solo en tu navegador"
+        ]
+      },
+      {
+        "eyebrow": "Paso 2 de 6",
+        "title": "Crea tu primer fragmento",
+        "description": "Un fragmento tiene tres campos: una etiqueta (solo para ti), un atajo y el contenido que se inserta. El editor de texto enriquecido admite negrita, listas, enlaces, imágenes y GIFs.",
+        "bullets": [
+          "Etiqueta: un nombre descriptivo que solo tú ves, por ejemplo \"Cierre de soporte\"",
+          "Atajo: lo que escribes para activarlo, por ejemplo /cierre",
+          "Contenido: admite texto enriquecido — negrita, listas, bloques de código y más"
+        ]
+      },
+      {
+        "eyebrow": "Paso 3 de 6",
+        "title": "Escribe una vez, expande en cualquier lugar",
+        "description": "Escribe tu atajo en cualquier campo de texto de cualquier sitio web. Clipio lo reemplaza instantáneamente por tu contenido completo — sin copiar y pegar, sin cambiar de ventana.",
+        "bullets": [
+          "Se activa con Espacio o Tab después del atajo",
+          "O simplemente haz una pausa — Clipio se expande automáticamente tras un tiempo configurable (por defecto 300 ms)",
+          "La detección de límites de palabras previene activaciones accidentales"
+        ]
+      },
+      {
+        "eyebrow": "Paso 4 de 6",
+        "title": "Haz tus fragmentos dinámicos",
+        "description": "Ve más allá del texto estático con marcadores dinámicos que se resuelven en el momento de la expansión. El editor los muestra como chips interactivos en los que puedes hacer clic para configurarlos.",
+        "bullets": [
+          "{{clipboard}} — inserta el contenido actual de tu portapapeles",
+          "{{date:long}} — inserta la fecha de hoy completa, por ejemplo 14 de marzo de 2026",
+          "{{cursor}} — coloca tu cursor exactamente donde quieras después de la expansión"
+        ]
+      },
+      {
+        "eyebrow": "Paso 5 de 6",
+        "title": "Imágenes, GIFs y comandos de barra",
+        "description": "Escribe / en el editor para abrir el menú de comandos. Inserta imágenes almacenadas localmente en tu navegador, o GIFs animados de Giphy — todo sin abandonar el teclado.",
+        "bullets": [
+          "/image abre el Selector de imágenes — selecciona una imagen almacenada o sube una nueva",
+          "/gif abre el Selector de GIFs — busca en la biblioteca de Giphy e inserta GIFs animados",
+          "Gestiona tu biblioteca de imágenes desde Configuración → Imágenes; se pueden añadir más comandos con el tiempo"
+        ]
+      },
+      {
+        "eyebrow": "Paso 6 de 6",
+        "title": "Siempre sincronizado",
+        "description": "Clipio sincroniza tu biblioteca en todos tus navegadores automáticamente. Instálalo en tu ordenador de trabajo y en tu portátil personal — tus fragmentos aparecen en ambos en segundos.",
+        "bullets": [
+          "Cambio automático al almacenamiento local si tu biblioteca supera la cuota de sincronización",
+          "Asigna etiquetas para mantener tu biblioteca organizada a medida que crece",
+          "Exporta en cualquier momento como JSON para copia de seguridad o para compartir con tu equipo"
+        ]
+      }
+    ],
+    "stepCounter": "{current} / {total}",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "getStarted": "Empezar",
+    "goToStep": "Ir al paso {step}",
+    "doneTitle": "Todo listo",
+    "doneBodyExtension": "Vuelve a la extensión y crea tu primer fragmento.",
+    "doneBodyWeb": "Empieza a ahorrar tiempo con Clipio hoy.",
+    "openExtension": "Abrir extensión Clipio",
+    "goToHomepage": "Ir a la página principal",
+    "revisitHint": "Usa ← → para revisar cualquier paso",
+    "startOver": "Empezar de nuevo",
+    "mockup": {
+      "search": "Buscar…",
+      "newSnippet": "Nuevo fragmento",
+      "cancel": "Cancelar",
+      "saveSnippet": "Guardar fragmento",
+      "labelField": "Etiqueta",
+      "shortcutField": "Atajo",
+      "contentField": "Contenido",
+      "searchImages": "Buscar imágenes…",
+      "upload": "Subir",
+      "imageSelected": "Imagen seleccionada — se insertará en tu fragmento",
+      "clickToInsert": "Haz clic en una imagen para insertarla · Almacenada localmente en tu navegador",
+      "slashCmdsTab": "Comandos /",
+      "imagePickerTab": "Selector de imágenes",
+      "settingsTab": "Ajustes",
+      "commandsHeader": "Comandos",
+      "moreCommands": "Se pueden añadir más comandos — escribe / para ver la lista completa",
+      "tipPrefix": "Consejo:",
+      "tipBody": "Comandos como {imageCmd} y {gifCmd} abren un selector visual directamente en el editor. Se añaden nuevos comandos con el tiempo.",
+      "clickDateHint": "Haz clic en el chip de fecha para elegir un formato",
+      "clipboardDesc": "Pega tu portapapeles",
+      "dateDesc": "Fecha dinámica",
+      "cursorDesc": "El cursor cae aquí",
+      "syncActive": "Sincronización activa",
+      "allDevicesSynced": "Todos los dispositivos sincronizados",
+      "syncStorage": "Almacenamiento sincronizado",
+      "localStorage": "Almacenamiento local",
+      "tags": "Etiquetas",
+      "images": "Imágenes",
+      "imagesStored": "{count} almacenadas",
+      "altTextPlaceholder": "Texto alternativo…",
+      "triggerAutoExpanding": "expandiendo automáticamente…",
+      "triggerExpanding": "{label} — expandiendo…",
+      "triggerAutoTimeout": "auto (tiempo de espera)",
+      "newMessage": "Mensaje nuevo",
+      "gmailSubject": "Re: Tu ticket #4821",
+      "gmailTo": "Para",
+      "gmailRecipient": "cliente@ejemplo.com",
+      "gmailSearchPlaceholder": "Buscar en el correo",
+      "gmailExpandedBody": "¡Gracias por contactarnos! Te responderemos en un plazo de 24 horas.",
+      "editorPlaceholderText": "Mira este diagrama",
+      "editorImageText": "Aquí está el diagrama:",
+      "settingsMenuItems": ["General", "Importar/Exportar", "Apariencia", "Imágenes", "Desarrolladores"],
+      "slashCommands": [
+        { "cmd": "/image", "desc": "Insertar una imagen almacenada" },
+        { "cmd": "/gif", "desc": "Insertar un GIF de Giphy" },
+        { "cmd": "/cursor", "desc": "Colocar el cursor tras la expansión" },
+        { "cmd": "/date", "desc": "Insertar la fecha de hoy" },
+        { "cmd": "/clipboard", "desc": "Insertar el contenido del portapapeles" }
+      ],
+      "sidebarSnippets": [
+        { "label": "Cierre de soporte", "shortcut": "/cierre", "preview": "Gracias por contactarnos…" },
+        { "label": "Invitación a reunión", "shortcut": "/reunion", "preview": "Sincronicemos en esto…" },
+        { "label": "Standup diario", "shortcut": "/standup", "preview": "Ayer trabajé en…" },
+        { "label": "Revisión de código", "shortcut": "/revision", "preview": "Dejé algunos comentarios…" }
+      ],
+      "editorSupportClosingContent": "¡Gracias por contactarnos! Te responderemos en un plazo de 24 horas.",
+      "supportClosingLabel": "Cierre de soporte",
+      "supportClosingShortcut": "/cierre"
+    }
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "Lo sentimos, no encontramos la página que buscas.",
+    "backHome": "Volver al inicio"
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "description": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo.",
+    "tryAgain": "Intentar de nuevo"
+  }
+}
